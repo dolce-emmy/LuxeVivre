@@ -1,4 +1,34 @@
-.app__aboutus-logo {
+
+
+.app__aboutus {
+    position: relative;
+}
+
+.app__aboutus-overlay {
+    position: absolute;
+    inset: 0;
+}
+
+.app__aboutus-overlay img{
+  
+    width: 350px;
+    height: 415px;
+    z-index: 0;
+
+}
+
+.app__aboutus-content {
+  
     width: 100%;
+    z-index: 2;
+}
+
+
+.app aboutus-content_about {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    flex-direction: column;
     
 }
