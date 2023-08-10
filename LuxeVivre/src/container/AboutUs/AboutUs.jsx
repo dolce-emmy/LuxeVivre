@@ -26,7 +26,7 @@ const AboutUs = () => (
       <div className='app__aboutus-content_history'>
       <h1 className='headtext__cormorant'>Our History</h1>
       <img src={images.spoon} alt="about_spoon" className='spoon__img' />
-      <p className='p__opensans'>At Luxevivre, our passion lies in redefining dining through innovative dishes, impeccable service, and an elegant ambiance. With a rich blend of culinary artistry and a commitment to perfection, we invite you to join us on a journey that celebrates the art of gastronomy.</p>
+      <p className='p__opensans'>Embark on a two-decade journey with Luxevivre, where we've evolved into a global symbol of culinary innovation. From our humble origins, tradition and modernity blend seamlessly, crafting exquisite and timeless dining experiences that captivate worldwide palates.</p>
       <button type='button' className='custom__button' >Know More</button>
       
       </div>
