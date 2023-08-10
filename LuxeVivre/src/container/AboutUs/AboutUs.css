@@ -11,7 +11,7 @@
 
 .app__aboutus-overlay img{
   
-    width: 350px;
+    width: 391px;
     height: 415px;
     z-index: 0;
 
@@ -24,11 +24,18 @@
 }
 
 
-.app aboutus-content_about {
+.app__aboutus-content_about {
     flex: 1;
     display: flex;
     justify-content: flex-end;
     align-items: flex-end;
     flex-direction: column;
+
+    text-align: right;
     
+}
+
+.app__aboutus-content_knife {
+
+    margin: 2rem 4rem;
 }

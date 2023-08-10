@@ -9,7 +9,7 @@ const AboutUs = () => (
     </div>
 
     <div className='app__aboutus-content flex__center'>
-      <div className='app__aboutus-content-about'>
+      <div className='app__aboutus-content_about'>
       <h1 className='headtext__cormorant'>About Us</h1>
       <img src={images.spoon} alt="about_spoon" className='spoon__img' />
       <p className='p__opensans'>At Luxevivre, our passion lies in redefining dining through innovative dishes, impeccable service, and an elegant ambiance. With a rich blend of culinary artistry and a commitment to perfection, we invite you to join us on a journey that celebrates the art of gastronomy.</p>
@@ -23,7 +23,7 @@ const AboutUs = () => (
       
       </div>
 
-      <div className='app__aboutus-content-history'>
+      <div className='app__aboutus-content_history'>
       <h1 className='headtext__cormorant'>Our History</h1>
       <img src={images.spoon} alt="about_spoon" className='spoon__img' />
       <p className='p__opensans'>At Luxevivre, our passion lies in redefining dining through innovative dishes, impeccable service, and an elegant ambiance. With a rich blend of culinary artistry and a commitment to perfection, we invite you to join us on a journey that celebrates the art of gastronomy.</p>
