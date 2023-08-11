@@ -18,3 +18,17 @@ text-align: center;
     flex-direction: row;
 }
 
+.app__specialMenu-menu_heading {
+    font-family: var(--font-base);
+    font-weight: 600;
+    font-size: 45px;
+    line-height: 58.5px;
+    letter-spacing: 0.04em;
+    color: var(--color-white);
+}
+
+.app__specialMenu-menu_wine,
+.app__specialMenu-menu_cocktails{
+    flex: 1;
+    width: 100%;
+}
