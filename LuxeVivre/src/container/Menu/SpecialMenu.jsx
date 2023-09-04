@@ -3,12 +3,14 @@ import { images, data } from "../../constants";
 import { SubHeading, MenuItem } from "../../components";
 import "./SpecialMenu.css";
 
+
 const SpecialMenu = () => (
   <div className="app__specialMenu flex__center section__padding" id="menu">
     <div className="app__specialMenu-title">
       <SubHeading title="Menu that fits your palate" />
       <h1 className="headtext__cormorant">Today's Special</h1>
     </div>
+
     <div className="app__specialMenu-menu">
       <div className="app__specialMenu-menu_wine flex__center">
         <p className="app__specialMenu-menu_heading">Wine & Beer</p>
@@ -20,7 +22,7 @@ const SpecialMenu = () => (
       </div>
 
       <div className="app__specialMenu-menu_img">
-        <img src={images.menu} alt="menu img" />
+        <img src={images.menu} alt="menu__img" />
       </div>
 
       <div className="app__specialMenu-menu_cocktails flex__center">
@@ -31,10 +33,9 @@ const SpecialMenu = () => (
           ))}
         </div>
       </div>
-
     </div>
 
-    <div style={{marginTop: '15px'}}>
+    <div style={{marginTop: 15}}>
       <button type="button" className="custom__button">View More</button>
     </div>
 
