@@ -58,9 +58,9 @@
     }
 
     .app__specialMenu-menu_img img {
-        width: 100%;
-        height: auto;
         
+        height: auto;
+        object-fit: cover;
     }
 }
 
