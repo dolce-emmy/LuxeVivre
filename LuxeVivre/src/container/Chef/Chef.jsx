@@ -5,7 +5,7 @@ import './Chef.css';
 
 const Chef = () => (
   <div className='app__bg app__wrapper section__padding'>
-    <div className='app__wrapper__img app__wrapper_img-reverse'>
+    <div className='app__wrapper_img app__wrapper_img-reverse'>
       <img src={images.chef} alt='chef' />
     </div>
 
@@ -17,10 +17,10 @@ const Chef = () => (
             <div className='app__chef-content_quote'>
 
               <img src={images.quote} alt="quote" />
-              <p className='p__opensans'>"At LuxeVivre, I pour my heart and soul into every dish, transforming fresh ingredients into unforgettable culinary experiences.With each dish, we invite you to savor a symphony of flavors, crafted with passion and precision. Join us in indulging your senses in the world of LuxeVivre."</p>
+              <p className='p__opensans'>At LuxeVivre, I pour my heart and soul into every dish, transforming fresh ingredients into unforgettable culinary experiences.</p>
 
             </div>
-            <p className='p__opensans'></p>
+            <p className='p__opensans'>With each dish, we invite you to savor a symphony of flavors, crafted with passion and precision. Join us in indulging your senses in the world of LuxeVivre.</p>
           </div>
 
           <div className='app__chef-sign'>
