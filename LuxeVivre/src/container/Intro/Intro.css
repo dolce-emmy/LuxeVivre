@@ -1,4 +1,4 @@
-app__video {
+.app__video {
     height: 100vh;
     position: relative;
 
@@ -14,7 +14,7 @@ app__video {
 .app__video-overlay {
 
     position: absolute;
-    inset: 0 auto;
+    inset: 0;
     background: rgba(0, 0, 0, 0.65);
 }
 
