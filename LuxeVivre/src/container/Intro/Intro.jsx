@@ -8,7 +8,8 @@ import "./Intro.css";
 
 const Intro = () => {
   const vidRef = useRef(null);
-  [playVideo, setPlayVideo] = useState(false);
+  const [playVideo, setPlayVideo] = useState(false);
+  
 
   const handleVideo = () => {
     // here we will toggle the video play and pause
