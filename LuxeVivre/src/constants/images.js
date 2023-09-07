@@ -22,6 +22,7 @@ import quote from '../assets/quote.png';
 import gericht from '../assets/gericht.png';
 import luxevivre from '../assets/luxevivre.png';
 import luxevivre2 from '../assets/luxevivre2.png';
+import lobster from '../assets/lobster.jpg';
 import L from '../assets/L.png';
 
 
@@ -51,4 +52,5 @@ export default {
   luxevivre,
   luxevivre2,
   L,
+  lobster,
 };
