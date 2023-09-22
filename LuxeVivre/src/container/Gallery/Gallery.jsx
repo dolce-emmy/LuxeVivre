@@ -25,7 +25,7 @@ const Gallery = () => {
     if (direction === "left") {
       scrollRef.current.scrollLeft -= 300;
     } else {
-      scrollRef.current.scrollRight += 300;
+      scrollRef.current.scrollLeft += 300;
     }
   };
 
@@ -34,7 +34,7 @@ const Gallery = () => {
       <div className="app__gallery-content">
         <SubHeading title="Instagram" />
         <h1 className="headtext__cormorant">Photo Gallery</h1>
-        <p className="p__opensans" style={{ color: "#AAA", marginTop: "2rem" }}>
+        <p className="p__opensans" style={{ color: "#AAAAAA", marginTop: "2rem" }}>
           "Explore our Gallery—a visual journey through our culinary artistry
           and warm ambiance. Get a taste of what makes us special."
         </p>
@@ -58,7 +58,7 @@ const Gallery = () => {
         </div>
 
         {/* Arrow buttons for scrolling the gallery */}
-        <div className="app__gallery-images_arrow">
+        <div className="app__gallery-images_arrows">
           <BsArrowLeftShort
             className="gallery__arrow-icon"
             onClick={() => scroll("left")}
